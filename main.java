@@ -1,9 +1,8 @@
 //Kareem Zaiter
 //MIPS Disassembler
 
-public class main
-{
-
+public class main{
+	
 	public main(){
 
 		int hxIn[]={0x022DA822, 0x8EF30018, 0x12A70004, 0x02689820, 0xAD930018, 0x02697824, 0xAD8FFFF4, 
@@ -54,9 +53,7 @@ public class main
 
 					System.out.printf("%s: slt $%d, $%d, $%d\n",addrSt,d,s,t);
 					break;
-
 				}
-
 				break;
 			}     
 			case 0x23:  //lw
@@ -96,12 +93,12 @@ public class main
 
 				}
 				break;
-			}
-		  }
+			        }
+		        }
 		}
 	}
 	public static void main(String[] args) {
 		
-		main lo = new main();
+	main lo = new main();
 	}
 }
